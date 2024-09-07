@@ -1,0 +1,13 @@
+{
+	"files.associations": {
+		"*.tcc": "cpp",
+		"fstream": "cpp",
+		"functional": "cpp",
+		"regex": "cpp",
+		"array": "cpp",
+		"iostream": "cpp",
+		"ostream": "cpp",
+		"variant": "cpp"
+	},
+	"workbench.editorLargeFileConfirmation": 10
+}
