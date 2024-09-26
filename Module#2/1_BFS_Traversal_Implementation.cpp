@@ -3,9 +3,9 @@ using namespace std;
 vector<int>Lia[1001];
 bool visit_array[1001];
 //size will be given in ques
-queue<int>Yuna; //queue er size lage na
 void bfs(int source)
 {
+    queue<int>Yuna; //queue er size lage na
     Yuna.push(source);
     visit_array[source] = true;
     while(!Yuna.empty())

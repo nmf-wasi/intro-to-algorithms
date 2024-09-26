@@ -1,4 +1,6 @@
-// in 2d array, instead of giving the edges[connections between nodes] we will be given a whole matrix and instead of a source, we will be given the row and collum of the source
+// in 2d array, instead of giving the edges[connections between nodes] 
+// we will be given a whole matrix and instead of a source,
+// we will be given the row and collum of the source
 // then, we have to use 2D array's i & j to find other nodes from it
 // to go up add -1 with i and 0 with j
 // to go down add 1 with i and 0 with j
@@ -7,7 +9,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int row, col;
-//declairingin ow and collum globally so that we dont have to apss these on every function while working
+//declairing row and collum globally so that we dont have to apss these on every function while working
 // char array [row][col];
 //instead of having variable, just declare a size
 char Lia[20][20];

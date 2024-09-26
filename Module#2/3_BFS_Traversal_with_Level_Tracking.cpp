@@ -57,7 +57,10 @@ int main()
     memset(visitArray, false, sizeof(visitArray));
     memset(levelArray, -1, sizeof(levelArray));
     // if output shows level -1 means, it's not connected
-    //  suppose there are nodes which aren't connected with anyother nodes. Then we can't access them using level order and their level will be shown a garbage value. therefore, we should set all levels to -1 at first so that we can find out from the outhputs which are on level -1, and those nodes are separated from others
+    //  suppose there are nodes which aren't connected with anyother nodes. 
+    // Then we can't access them using level order and their level will be shown a garbage value. 
+    // therefore, we should set all levels to -1 at first so that we can find out from the outputs which are on level -1,
+    // and those nodes are separated from others
     bfs_level_tracking(src);
     return 0;
 }

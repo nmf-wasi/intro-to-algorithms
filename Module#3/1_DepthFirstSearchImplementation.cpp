@@ -1,5 +1,6 @@
 //bfs works on the shortest way possible
-// using bfs, one can get the shortest path from one node to another. on the other hand, dfs just traverse through each nodes. 
+// using bfs, one can get the shortest path from one node to another. 
+// on the other hand, dfs just traverse through each nodes. 
 // for shortest path, use BFS and for normal works, use dfs, dfs implementation is wayy easier than bfs
 #include <bits/stdc++.h>
 using namespace std;
@@ -10,14 +11,6 @@ void dfs (int src)
 {
     cout<<src<<" ";
     visitArray[src] = true;
-    // for (int i = 0; i < Lia[src].size();i++)
-    // {
-    //     int child = Lia[src][i];
-    //     if (visitArray[child] == false)
-    //     {
-    //         dfs(child);
-    //     }
-    // }
     for (int child: Lia[src])
     {
         if (visitArray[child] == false)

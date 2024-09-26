@@ -1,5 +1,4 @@
 //find the shortest distance of a node from source
-
 #include <bits/stdc++.h>
 using namespace std;
 char Lia[20][20];//2d array
